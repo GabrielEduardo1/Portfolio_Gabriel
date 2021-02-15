@@ -9,7 +9,10 @@ import PortfolioScreen from './Portfolio';
 
 
 <HomeScreen/>,
-<SobreScreen/>
+
+<SobreScreen/>, 
+
+<PortfolioScreen/>
 
 const Tab = createBottomTabNavigator();
 
