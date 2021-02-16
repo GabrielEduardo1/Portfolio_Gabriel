@@ -4,7 +4,8 @@ import { Dimensions } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import {db} from './firebase';
 import { useState, useEffect } from 'react';
-import { ceil } from 'react-native-reanimated';
+import {ceil} from 'react-native-reanimated';
+
 
 
 
@@ -30,8 +31,11 @@ export default function SobreScreen({navigation}) {
         nome:nome,
         mensagem:mensagem,
     })
+
     alert('Sua mensagem foi enviado com Sucesso');
+
     }
+
     return (
         <View style={{flex:1}}>
           {

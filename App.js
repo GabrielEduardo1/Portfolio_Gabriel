@@ -14,10 +14,13 @@ import PortfolioScreen from './Portfolio';
 
 <PortfolioScreen/>
 
+
 const Tab = createBottomTabNavigator();
+
 
 function App() {
   return (
+    
     <NavigationContainer >
         <StatusBar backgroundColor='black' style='light'/>
         <Tab.Navigator
